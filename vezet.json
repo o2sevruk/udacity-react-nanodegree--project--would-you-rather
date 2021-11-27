@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TaxiService",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Везёт",
+    "location": {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "44.8908400",
+          "longitude": "37.3239000"
+        },
+        "geoRadius": "50"
+      }
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Anapa",
+      "addressCountry": "RU"
+    },
+    "telephone": "+78613399999",
+    "url": "https://vezet.ru/anapa",
+    "image": [
+      "https://avatars.mds.yandex.net/get-lpc/1674605/7e01b691-f65f-4cac-9834-8319d206638e/orig"
+    ],
+    "priceRange": "$",
+    "minimumPaymentDue": {
+      "@type": "PriceSpecification",
+      "price": "69",
+      "priceCurrency": "RUB"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    ],
+    "paymentAccepted": "Cash, Credit Card"
+  }
+}
